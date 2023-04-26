@@ -7,7 +7,7 @@ const Nav = () => {
   useEffect(() => {
     const fetchData = () => {
       const xhr = new XMLHttpRequest();
-      const url = "https://newsapi.org/v2/top-headlines?sources=google-news&apiKey=ee1011a5e8d649128307c7b3b8b42283";
+      const url = "https://newsapi.org/v2/top-headlines?sources=google-news&apiKey=YOUR_API_KEY";
       xhr.open("GET", url, true);
 
       xhr.onload = () => {
